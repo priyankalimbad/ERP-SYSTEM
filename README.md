@@ -1,4 +1,4 @@
-# QuickStock ERP Core 📦
+# QuickStock ERP Core 
 
 Welcome to **QuickStock**! This is a lightweight, purely Python-based ERP engine designed to handle the most critical part of any business: **Inventory and Billing**. 
 
@@ -24,7 +24,7 @@ Since everything is built-in, you don't need to install any external libraries! 
 python quickstock.py
 ```
 
-### 💡 A Note on Testing
+###  A Note on Testing
 QuickStock uses a persistent database file (`quickstock.db`). Every time you run the script, your stock will continue to drain based on your test orders. 
 * If your script suddenly throws a `ValueError` saying you don't have enough stock, **it means your logic is working perfectly!** You simply ran out of test items.
 * **To reset everything back to 100 stock:** Just delete the `quickstock.db` file from the folder and run the script again. It will automatically rebuild the database and restock your items.
